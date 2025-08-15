@@ -1,7 +1,9 @@
 ![Delicious Bites Restaurant Banner](banner.png)
 # 🍽️ Delicious Bites Restaurant Website
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)](https://YOUR_USERNAME.github.io/delicious-bites-restaurant/)
+[![GitHub Repo](https://img.shields.io/badge/View%20Code-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME/delicious-bites-restaurant)
 
-A modern, responsive restaurant website built using **HTML**, **CSS**, and **JavaScript**.  
+A **modern, responsive restaurant website** built using **HTML**, **CSS**, and **JavaScript**.  
 This project showcases a full restaurant landing page with menu listings, a reservation form, customer reviews, and contact information.
 
 ---
