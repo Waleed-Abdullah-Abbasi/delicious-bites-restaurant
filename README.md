@@ -1,3 +1,4 @@
+![Delicious Bites Restaurant Banner](banner.png)
 # 🍽️ Delicious Bites Restaurant Website
 
 A modern, responsive restaurant website built using **HTML**, **CSS**, and **JavaScript**.  
