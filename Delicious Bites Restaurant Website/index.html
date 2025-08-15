@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Delicious Bites</h1>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Delicious Bites</h2>
+            <p>Experience exquisite flavors and warm hospitality</p>
+            <a href="#reservation" class="btn">Book a Table</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2 class="section-title">Our Menu</h2>
+
+        <!-- Starters -->
+        <div class="menu-category">
+            <h3>Starters</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h4>Crispy Calamari</h4>
+                    <p>Lightly battered calamari rings served with garlic aioli</p>
+                    <span class="price">$8.99</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Bruschetta</h4>
+                    <p>Toasted bread topped with diced tomatoes, basil, and balsamic glaze</p>
+                    <span class="price">$6.99</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Spinach Artichoke Dip</h4>
+                    <p>Creamy dip with spinach, artichokes, and melted cheese, served with tortilla chips</p>
+                    <span class="price">$7.99</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Course -->
+        <div class="menu-category">
+            <h3>Main Course</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h4>Grilled Salmon</h4>
+                    <p>Fresh salmon fillet with lemon herb butter, served with seasonal vegetables</p>
+                    <span class="price">$18.99</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Beef Tenderloin</h4>
+                    <p>Perfectly cooked beef tenderloin with red wine reduction and mashed potatoes</p>
+                    <span class="price">$24.99</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Mushroom Risotto</h4>
+                    <p>Creamy arborio rice with wild mushrooms, parmesan, and truffle oil</p>
+                    <span class="price">$16.99</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-category">
+            <h3>Desserts</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h4>Chocolate Lava Cake</h4>
+                    <p>Warm chocolate cake with a molten center, served with vanilla ice cream</p>
+                    <span class="price">$7.99</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Tiramisu</h4>
+                    <p>Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream</p>
+                    <span class="price">$6.99</span>
+                </div>
+                <div class="menu-item">
+                    <h4>New York Cheesecake</h4>
+                    <p>Rich and creamy cheesecake with berry compote</p>
+                    <span class="price">$8.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation-section">
+        <h2 class="section-title">Book a Table</h2>
+        <form id="reservation-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="form-group">
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time">
+            </div>
+            <div class="form-group">
+                <label for="people">Number of People</label>
+                <select id="people" name="people">
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                    <option value="4">4 People</option>
+                    <option value="5">5 People</option>
+                    <option value="6">6+ People</option>
+                </select>
+            </div>
+            <button type="submit" class="btn">Reserve Now</button>
+        </form>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews-section">
+        <h2 class="section-title">Customer Reviews</h2>
+        <div class="review-slider">
+            <div class="review active">
+                <div class="review-content">
+                    <p>"The food was absolutely amazing! Every dish was prepared to perfection. The ambiance was cozy
+                        and the service was impeccable. Will definitely come back!"</p>
+                    <h4>- Sarah Johnson</h4>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="review-content">
+                    <p>"This is my favorite restaurant in town. The grilled salmon is to die for, and their chocolate
+                        lava cake is the best dessert I've ever had. Highly recommended!"</p>
+                    <h4>- Michael Chen</h4>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="review-content">
+                    <p>"We had our anniversary dinner here and it was a memorable experience. The food was delicious and
+                        the staff went above and beyond to make our night special."</p>
+                    <h4>- Emma and David Wilson</h4>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+        </div>
+        <div class="review-controls">
+            <button id="prev-review">Previous</button>
+            <button id="next-review">Next</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Delicious Bites</h3>
+                <p>123 Gourmet Street, Foodie City</p>
+                <p>Phone: (+92) 2054-54762</p>
+                <p>Email: info@deliciousbites.com</p>
+            </div>
+            <div class="footer-hours">
+                <h4>Opening Hours</h4>
+                <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+                <p>Saturday - Sunday: 10:00 AM - 11:00 PM</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Delicious Bites. All rights reserved. | Designed by Waleed Abdullah (13)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
